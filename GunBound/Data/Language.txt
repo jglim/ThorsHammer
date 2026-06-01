@@ -1,0 +1,433 @@
+;jg: "borrowed" from gunbound.be - RIP
+;Last update: 18-08-2018 for GunBound Origins (www.gunbound.be)
+
+;World List
+200	Message Code: 200\n\nThe server you selected is unable to load, please try again later.
+201	Message Code: 201\n\nThe connection has timed out\n\nError code: %s
+202	Message Code: 202\n\nThe server's settings are configured incorrectly. Please try again later.
+203	Message Code: 203\n\nThe server was unable to establish a connection to your client. Please try again later.
+204	Message Code: 204\n\nThis ID does not exist. Please register a new ID.
+205	Message Code: 205\n\nIncorrect password.
+206	Message Code: 206\n\nThis ID does not belong to GunBound Origins. ;Not sure on this one
+220	Message Code: 220\n\nVersion incorrect.\nPlease obtain an updated copy of the client.\nConnection closed.
+222	Message Code: 222\n\n%s is a banned account.\nConnection Closed.
+232	Message Code: 232\n\nThe ID does not exist.\nPlease check your ID.
+
+;World List server limitations
+228	Message Code: 228\n\nYour level does not match the selected server, try again.
+229	Message Code: 229\n\nSelected Server is for guild members only.\nPlease use a different server.
+230	Message Code: 230\n\nSelected Server is only for non-guild members.\nPlease use a different server.
+231	Message Code: 231\n\nYour guild cannot access this server.\nPlease use a different server.
+
+;Mobius uses this for the Power User/Pilot Club stuff.
+221	Message Code: 221\n\nThe server is down for maintenance.\nPlease try again later.\n\n- GunBound Team
+
+;Should only appear if you screw with the game
+208	Message Code: 208\n\nYour GunBound settings are corrupt. Please re-install GunBound.
+224	Message Code: 224\n\nAn important file was modified.\nGame Closed.
+227	Message Code: 227\n\nInternal data has been modified.\nPlease restart GunBound.
+
+;Channel stuff
+209	Message Code: 209\n\nToo many users in the channel.\nPlease try a different channel.
+210	Message Code: 210\n\nCannot move to a new channel.\nPlease use the existing channel.
+211	Message Code: 211\n\nYou are already inside the channel.
+
+;Room stuff
+212	Message Code: 212\n\nThe room you have selected is full.\nPlease try a different room.
+213	Message Code: 213\n\nCan't create a room.\nPlease use one of the existing rooms.
+214	Message Code: 214\n\nA simple 'double-click' is all that is needed to join a room.
+215	Message Code: 215\n\nThe room you have selected is already in play.\nPlease try a different room.
+216	Message Code: 216\n\n\nThe game cannot start yet. Please wait until you have even teams and all users are 'Ready'. ;Unused AFAIK
+242	Message Code: 242\n\nCannot create room in the chosen server.\nPlease use other.
+
+;Someone that logged on same ID from diff machine
+217	Message Code: 217\n\nAnother user has logged on with your ID. \nChange your account information immediately if it isn't you!
+
+;Unknown
+218	Message Code: 218\n\nCan't communicate with or invite others due to community error.
+239	Message Code: 239\n\nCommunication is not working properly. Game closed. ;This one used to happen a lot in pre-emu TH clients for unknown reasons
+240	Message Code: 240\n\nData communication is not working properly.\nPlease restart GunBound.\nGame closed.
+243	Message Code: 243\n\nThis is not a purchased item.\nPlease retry. ;I have no idea. Probably more safety checks
+244	Message Code: 244\n\nUnder maintenance for improved functionality. ;Avatar shop maintenance packet?
+247	Message Code: 247\n\nInformation has been modified. Please try again.\nConnection closed. ;Maybe was supposed to happen if you changed IGN or something while in-game?
+
+;Getting banned while in-game
+219	Message Code: 219\n\nThis ID is banned from the server.\nConnection Closed.
+
+;Not sure how this was used
+223	Message Code: 223\n\nThe server has been restarted for updates.\nPlease restart GunBound.
+
+;Surrender game
+245	Message Code: 245\n\nAre you sure you want to quit?\nSurrendering will result in losing 100 gold per user on your team (enter to cancel)
+
+;Disconnected by GM
+252	Message Code: 252\nUnidentified Error
+
+;Buddy List purple box
+253	Message Code: 253\nEntered name does not exist.
+
+;Billing stuff (unused?)
+248	Message Code: 248\nBilling]Not Enough Point
+249	Message Code: 249\nBilling]Invalid
+250	Message Code: 250\nBilling]User does not exist
+251	Message Code: 251\nBilling]Other Error
+254	Message Code: 254\nBilling Error\n\nChecking systems. \nPlease login later.  
+255	Message Code: 255\nBilling Error\n\n Adults Only.\nClosing the game. 
+256	Message Code: 256\nBilling Error\n\nPlease check your real name.\n 
+257	Message Code: 257\nBilling Error\n\nYou have old version of security module.\n 
+258	Message Code: 258\nBilling Error\n\nYou are already logged in.\n
+259	Message Code: 259\nBilling Error\n\nYour account has a problem.\nPlease contact customer service center. 
+260	Message Code: 260\nBilling Error\n\nInsufficient funds.\n 
+261	Message Code: 261\nBilling Error\n\nPlease make payment for service.\n 
+262	Message Code: 262\nBilling Error\n\nNeed update to payment method.\n
+
+;E-mail verify stuff
+350	Gaining entry to the avatar shop.
+351	Your current IP is not verified for this account and requires confirmation to gain entry to the avatar shop.\n\nTo confirm this IP click on "YES" and follow the link in the mail which will be delivered to your registered email address.
+269	Message Code: 269\nE-mail address is not verified.\nRestrictions applied to the use of channel chatting and the avatar shop.\nPlease visit http://gunbound.be/my/account to verify your e-mail.
+270	Message Code: 270\nSent successfully.\nÿÿ\nCheck your registered email to confirm your IP. After confirm, restart GunBound to have access to Avatar Shop.
+277	Message Code: 277\nCheck your registered email to confirm your IP. After confirm, restart GunBound to have access to Avatar Shop.
+281	Message Code: 281\nE-mail address is not verified.\nPlease visit http://gunbound.be/my/account to verify your e-mail.
+
+;Avatar shop purple boxes
+226	Message Code: 226\n\nYou don't have enough money.\nPlease buy a different item.
+233	Message Code: 233\n\nCan't sell bought items.
+234	Message Code: 234\n\nCan't sell event items.
+235	Message Code: 235\n\nCan't sell gifted items.
+236	Message Code: 236\n\nCan't re-gift gifted items.
+237	Message Code: 237\n\nTried to send non-existing item(s).\nPlease retry.
+238	Message Code: 238\n\nThe gift has been sent to the user.
+246	Message Code: 246\n\nYou have purchased too many item(s). \nThrow out or sell unnecessary item(s).\n(You can only have 300 items)
+
+;Gifting
+278	Message Code: 288\n\nUsers under the level of Metal Axe are only allowed to receive gifts.\nSending gifts is available from the Metal Axe and above levels only.
+285	Message Code: 285\nFor the safety of your account, gift function is restricted to %s.
+286	Message Code: 286\nBecause the selected item is recovered from hacking activity, it cannot be gifted.
+
+;No longer used in GBPH 360?
+60010	Item Purchased.
+60011	'%s' has been purchased.
+60012	Purchased item(s) are send to your inventory
+60013	Thank you for visiting the avatar shop.
+
+;Avatar shop general text
+700	Buy Item
+701	'%s'
+702	The price is %d Gold,
+703	You will have %d Gold left.
+704	Male can't wear female's avatar items
+705	Female can't wear male's avatar items
+706	Do you want to buy this item?
+707	Sell Item.
+708	'%s'
+709	The price is %d Gold,
+710	You will have %d Gold
+711	Do you want to sell this item?
+712	Delete Item.
+713	'%s'
+714	It will not affect your gold amount.
+715	Do you want to delete it?
+60000	%s
+60001	Buy with Gold - %d
+60002	Can't buy with Gold
+60003	Buy with Cash - %d
+60004	Can't buy with Cash.
+60005	(Sell = %d Gold)
+60006	This item is for male use only
+60007	This item is for female use only.
+60008	Please check gender before buying.
+;Charge Cash button
+60009	http://gunbound.be/charge
+
+;.dat errors
+300	Message Code: 300\nEssential files has been modifed. Please re-install GunBound.
+301	Message Code: 301\nMobile data has been modified - %d, %d. Please re-install GunBound.
+302	Message Code: 302\nNo mobile data [%s]. Please re-install GunBound.
+303	Message Code: 303\nStage data has been modifed - %d, %d.Please re-install GunBound.
+304	Message Code: 304\nNo stage data. Please re-install GunBound.
+305	Message Code: 305\nItem data has been modifed - %d, %d.Please re-install GunBound.
+306	Message Code: 306\nNo item data [%s]. Please re-install GunBound.
+
+;Xfs errors
+307	Message Code: 307\nGraphics data has been modified - %d, %d.\n[%s]\nPlease re-install GunBound.
+308	Message Code: 308\nSound data has been modifed - %d, %d.\n[%s]\nPlease re-install GunBound.
+322	Message Code: 322\nUpdated new avatar data\nyou must re-install Gunbound. ;Not sure how this one works
+
+;Can't run game errors
+309	Message Code: 309\nCan't initialize game.\nTry again after rebooting the computer.
+310	Message Code: 310\nNo 3D video card found or low video driver version.\nTry again after updating DirectX and Video Driver to latest version.
+311	Message Code: 311\nTry after updating DirectX to the latest version.
+312	Not enough memory to run GunBound.
+313	Not enough memory.\nGunBound requires at least an 8MB video card.\nIf you started GunBound after playing other 3D games please retry after rebooting your PC.
+314	Message Code: 314\nCan't perform initialization to start game - %d. In this case turning off "Auto monitor regeneration frequency control" can solve the problem.\nReinstall the operating system and try again.
+315	File Error #1
+316	File Error #2 - Please re-install GunBound.
+317	Running Error #1
+
+;sites you go to when error happens
+318	http://www.gunbound.be/
+319	http://www.gunbound.be/
+320	http://www.gunbound.be/
+
+;channel spam message & error
+321	$Spamming is prohibited. Please stop spamming!
+225	Message Code: 225\n\nSpamming is prohibited.\nSpamming again may result in a ban.\nConnection Closed.
+
+;command list
+500	GunBound Command List\n/h, /help, /guide : Command List (this)\n/to, /m, /message : Message the specified person\n/kick : Kick out the id in game waiting room\n/key : Show the list of shortcut keys\n/go : Go to a specific room number\n/mute : Deny messages from a specific person\n/loud : Accept messages from a specific person\n/mutelist : Show all users whose messages are denied.\n/loudall : Show messages from all users
+501	How to use the message command\n/m ID message content\n/to ID message content\n/message ID message content
+
+;/kick command
+502	Kick command can only be used in waiting rooms.
+503	Kick command can only be used by room masters.
+629	%s has been kicked out.
+
+;/command guide
+504	GunBound Shortcut Key List\nTAB: change weapon(basic<->special)\nF1~F6 : item use/select\nF7 : change mobile (tag only)\nF8 : skip turn
+505	Go command can only be used in channels.
+506	How to use the go command\n/go room number
+507	How to use the mute command\n/mute NAME
+508	Messages denied from these IDs: %d
+509	How to use the loud command\n/loud NAME
+
+;/mute stuff
+510	!%s has been muted.
+511	Unmuted %s.
+512	Allow all users messages.
+
+;Swear filter
+514	$Do not talk about other Private Servers or Hacking Tools.
+
+;When someone muted try to talk
+516	You are banned from talking in-game for %d hour(s) and %02d minute(s).
+
+;When one tries to say their password in-game
+517	Do not share your password with other users. Sharing your account is against the GunBound Origins rules.
+
+;Jewel shot bonuses
+600	%s [25 Jewel Destroyed] %+d Points, %+d Gold, +2 GP
+601	%s [10 Jewel Destroyed] %+d Points, %+d Gold, +1 GP
+602	%s [5 Jewel Destroyed] %+d Points, %+d Gold
+603	%s [-5 Jewel Destroyed] -5 Points
+
+;Losing life in score mode
+604	A life from team A has expired.
+605	A life from team B has expired.
+
+;Winning game
+606	%s [Win Bonus received] %+d Gold
+
+;Leaving while in-game
+607	%s has left the game room.
+
+;Lag message
+608	Network Connection check host: %s user: %s
+642	Connection with %s has delayed the game over 5 times. %s will now be disconnected.
+
+;Sudden Death
+609	%d turns left until Sudden Death.
+615	Sudden Death Activated!
+
+;Kill bonuses
+610	%s [Bunge Shot Bonus] %+d Gold, +1 GP
+613	%s [Ending Bonus] %+d Gold, +1 GP
+628	%s [Shot of God Bonus] %+d Gold, +4 GP
+
+;Team damage penalties
+611	%s [Team Kill Penalty] %+d Gold, -2 GP
+614	%s [Team Kill Penalty] %+d Gold, -2 GP
+612	%s [Suicide Penalty] %+d Gold, -1 GP
+621	%s [Team Damage Penalty] %+d Gold, -1 GP
+641	%s [Team Penalty Bonus] %+d Gold
+
+;Style shot bonuses
+616	%s [Ultra High Angle Bonus] %+d Gold
+617	%s [High Angle Bonus] %+d Gold
+618	%s [Hurricane Bonus] %+d Gold
+619	%s [Boomer Shot Bonus] %+d Gold
+620	%s [Back Shot Bonus] %+d Gold
+
+;Damage shot bonuses
+622	%s [Excellent Shot Bonus] %+d Gold
+623	%s [Good Shot Bonus] %+d Gold
+624	%s [Shot Bonus] %+d Gold
+
+;x damage achieved bonuses
+625	%s [1000 Damage Achieved] %+d Gold, +1 GP
+626	%s [2000 Damage Achieved] %+d Gold, +2 GP
+627	%s [3000 Damage Achieved] %+d Gold, +4 GP
+
+;Item restrictions
+
+632	<Item Restrictions> %s can be used.
+633	<Item Restrictions> %s cannot be used.
+
+;/go command
+634	Moving to Room %d
+635	to '%s' - %s
+
+;results screen waiting room
+636	  ===================== Team A Wins =====================
+637	  ===================== Team A Loses ====================
+638	  ===================== Team B Wins =====================
+639	  ===================== Team B Loses ====================
+640	                        Game Results
+
+;Forces in-game
+830	Force
+831	Tornado
+832	Lightning
+
+;Mobile names
+1000	Armor
+1001	Mage
+1002	Nak
+1003	Trico
+1004	Bigfoot
+1005	Boomer
+1006	Raon
+1007	Lightning
+1008	J.D
+1009	A-sate
+1010	Ice
+1011	Turtle
+1012	Grub
+1013	Dragon
+1014	Knight
+1015	Aduka
+
+; Start
+;2001	こんにちは
+;2002	су́ка блядь
+;2003	씨발
+;2004	What's your point?
+;2005	Here we go~
+;2006	Don't shoot me!
+;2007	Stop hunting Jewels!
+;2008	?
+;2009	T.T;
+;2010	Don't shoot me!
+2001	Jewel Way to go!
+2002	Ha ha :)
+2003	I gotta go~
+2004	What's your point?
+2005	Here we go~
+2006	Don't shoot me!
+2007	Stop hunting Jewels!
+2008	?
+2009	T.T;
+2010	Don't shoot me!
+; Light Hit
+2011	Phew~
+2012	What the heck?!
+2013	Is that it?
+2014	Don't tickle me.
+2015	huh?
+2016	Nice try!
+2017	Do your homework.
+2018	What is your rank? Stone axe?
+2019	Come on, boy.
+2020	I take it as your point.
+; Strong Hit
+2021	It's bitter.
+2022	Gosh.
+2023	Who are you?
+2024	You've got minus point!
+2025	If you hit me, I'd wish bad luck.
+2026	Be careful!
+2027	Ouch!
+2028	Shoot.
+2029	Good damage..
+2030	Darn it.
+; Ultimate Hit
+2031	I'm still alive.
+2032	Nice try.
+2033	It's that close...
+2034	Ouch!
+2035	Very close?
+2036	Dual shot?
+2037	You almost killed me!
+2038	Awwww!
+2039	OOPS!
+2040	Very close ^^
+; Reappearing drop
+2050	I love it!
+2051	Get out of my way!
+2052	Time to rock and roll!
+2053	Great!
+2054	What nonsense! 
+2055	How horrible! 
+2056	Where is the score board?
+2057	Did you call me?
+2058	I'm coming down~
+2059	I'm falling~
+2060	Is that true?
+;Landing
+2061	Whose turn?
+2062	I gocha.
+2063	I'm here~
+2064	Kick ass!
+2065	Ready!
+2066	He dropped the ball!
+2067	Yay~
+2068	Great party!
+2069	Sweet~
+2070	Ready~
+
+3000	Total Rank %7d
+3001	Guild Rank  %3d/%3d
+3002	Winning Rate  %d%%
+3003	Average Hit  %d
+3004	Mobile Wins  %s (%d%%)
+3005	Best Mobile  %s (%d%%)
+
+;Buddy List
+4000	To add your friend, enter his/her ID and press "ADD"
+4001	'%s' wants to add you. \nDo you accept?
+4002	'%s' agreed to be your buddy.
+4003	'%s' rejected your request.
+4004	'%s' is already your buddy.
+4005	You are about to remove '%s' from your buddy list.\nAre you sure?
+4006	You asked '%s' to be your buddy.\nWaiting for his/her approval.
+4007	You cannot add your own name to your buddy list.
+4008	%s has sent you a gift!
+
+;Double kill message (don't bother editing: you'll be immediately auto banned)
+5000	#'%s' did a Double Kill in room %d.
+
+;F11 screenshot function
+9000	Screenshot saved in %s.
+
+;Go korea mode
+10000	GunBound changed to Normal mode.
+10001	GunBound changed to Event Mode
+
+;User info
+20000	Rank %8d 
+20001	%10d GP
+20002	Gold : %8d
+20003	Cash : %8d
+
+;Channel message when event activated
+50001	Event started. Join in the event NOW!
+50002	This message means event 1 is activated (placeholder text)
+50003	This message means event 2 is activated (placeholder text)
+50004	This message means event 3 is activated (placeholder text)
+
+;Waiting room message after winning a point
+50011	$Team A won one Halloween Point
+50012	$Team B won one Halloween Point
+;50013	Team A won one Event 1 point (placeholder text)
+;50014	Team B won one Event 1 point (placeholder text)
+;50015	@Team A won one Event 2 point (placeholder text)
+;50016	@Team B won one Event 2 point (placeholder text)
+;50017	%Team A won one Event 3 point (placeholder text)
+;50018	%Team B won one Event 3 point (placeholder text)
+
+;Kick message
+800003	You have been kicked\nBecause you did not start for 40 seconds.
+800004	You have been kicked\nBecause you did not ready for 40 seconds.
+
+;Anti-botting message
+999999	Game Abuse\n Users who suicide or self destruct continuously can be punished as an abuser.
+
