@@ -85,7 +85,7 @@
 350	Gaining entry to the avatar shop.
 351	Your current IP is not verified for this account and requires confirmation to gain entry to the avatar shop.\n\nTo confirm this IP click on "YES" and follow the link in the mail which will be delivered to your registered email address.
 269	Message Code: 269\nE-mail address is not verified.\nRestrictions applied to the use of channel chatting and the avatar shop.\nPlease visit http://gunbound.be/my/account to verify your e-mail.
-270	Message Code: 270\nSent successfully.\nÿÿ\nCheck your registered email to confirm your IP. After confirm, restart GunBound to have access to Avatar Shop.
+270	Message Code: 270\nSent successfully.\n\nCheck your registered email to confirm your IP. After confirm, restart GunBound to have access to Avatar Shop.
 277	Message Code: 277\nCheck your registered email to confirm your IP. After confirm, restart GunBound to have access to Avatar Shop.
 281	Message Code: 281\nE-mail address is not verified.\nPlease visit http://gunbound.be/my/account to verify your e-mail.
 
@@ -297,16 +297,6 @@
 1015	Aduka
 
 ; Start
-;2001	こんにちは
-;2002	су́ка блядь
-;2003	씨발
-;2004	What's your point?
-;2005	Here we go~
-;2006	Don't shoot me!
-;2007	Stop hunting Jewels!
-;2008	?
-;2009	T.T;
-;2010	Don't shoot me!
 2001	Jewel Way to go!
 2002	Ha ha :)
 2003	I gotta go~
