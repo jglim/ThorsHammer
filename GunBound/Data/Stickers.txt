@@ -1,0 +1,3 @@
+; message to sticker mapping, tab separated, id on left specifies sticker index in sticker.img
+0	:sadcat:
+1	:suffer:
